@@ -29,7 +29,7 @@ stack = []
 # Main loop
 running = True
 while running:
-    #clock.tick(12)
+    clock.tick(12)
 
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
